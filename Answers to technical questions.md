@@ -3,13 +3,13 @@
 
 (2). How would you track down a performance issue in production? Have you ever had to do this?
 	=> There could be several reasons for performance issue in production. I would analyze the following things
-	in order to track down the performance issue.
-	1. Network Connectivity
-	2. Server Speed and Loading Time
-	3. Analyzing code (Poorly written code must be improvised if found any)
-	4. Load Balancing
-	5. Checking specific HTML Title tags
-	6. Checking if there is Traffic Spikes
+	in order to track down the performance issue,
+	1. Network Connectivity,
+	2. Server Speed and Loading Time,
+	3. Analyzing code (Poorly written code must be improvised if found any),
+	4. Load Balancing,
+	5. Checking specific HTML Title tags,
+	6. Checking if there is Traffic Spikes,
 	7. I will use Google Analytics tool in order to track down performance issue in a better way.
 
 (3). Please describe yourself using JSON.
