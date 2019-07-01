@@ -39,7 +39,7 @@
 	  "cooking"
 	}
 	"beliefs":{
-		"One should be kind enough to understand and help others in need because kindness is a language which a deaf can hear and a blind can see. Kindness costs nothing. I believe in Kindness",
+		"One should be kind enough to understand and help others in need because kindness is a language which a deaf can hear 	and a blind can see. Kindness costs nothing. I believe in Kindness",
 		"Judging a person does not define who they are, it defines who you are",
 		"Success isn't about how much money you make, it's about how much difference you make in people's lives",
 		"Honesty is the best policy. I believe in honesty"
