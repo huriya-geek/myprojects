@@ -64,19 +64,20 @@
 				</tbody>
 			</table>
 		</div>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			setTimeout(function(){
-				$(.alert).remove();
-			},3000);
-			$(".btn-primary").click(function() {
-				$(".table").find('tr').eq(this.value).each(function){
-					$("#username").val($(this).find('td').eq(1).text());
-					$("#password").val($(this).find('td').eq(2).text());
-					$(".btn-info").val($(this).find('td').eq(2).text());
+		<script type="text/javascript">
+			$(document).ready(function(){
+				setTimeout(function(){
+					$(.alert).remove();
+				},3000);
+				$(".btn-primary").click(function() {
+					$(".table").find('tr').eq(this.value).each(function){
+						$("#username").val($(this).find('td').eq(1).text());
+						$("#password").val($(this).find('td').eq(2).text());
+						$(".btn-info").val($(this).find('td').eq(2).text());
+					});
+					$(".btn-info").attr("name","edit");
 				});
-				$(".btn-info").attr("name","edit");
 			});
-		});
-	</script>
-</body>
+		</script>
+	</body>
+</html>
